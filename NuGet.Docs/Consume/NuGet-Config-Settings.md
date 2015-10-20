@@ -22,19 +22,9 @@ Or for relative path (note the forward slashes for relative path), note: relativ
 <strong>Note</strong><br/>Relative path is only relative to the solution folder.
 </p>
 
-	<pre><code>
-    &lt;config&gt;
-     &lt;add key="repositoryPath" value="../relativepath" /&gt;
-    &lt;/config&gt;
-	</pre></code>
-
     <config>
       <add key="repositoryPath" value="../relativepath" />
     </config>
-
-<p class="info">
-<strong>Note</strong><br />Versions 3.0 - 3.2 has a <a href="https://github.com/NuGet/Home/issues/755">bug</a> where the path needs a backward slash
-</p>
    
 ## Dependency version
 
