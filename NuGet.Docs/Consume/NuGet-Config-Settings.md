@@ -87,7 +87,7 @@ The values can be added to the config file directly or using the package manager
 **key**: disableSourceControlIntegration
 
 Allows you to disable source control integration for the "Packages" folder.
-This key works at the solution level and hence need to be added to the NuGet.config file present in the `$(SolutionDir)\.nuget directory`.
+This key works at the solution level and hence need to be added to the NuGet.config file present in the `$(SolutionDir)\.nuget` directory.
 Enabling package restore from VS would add the `.nuget\nuget.config` file automatically.
 More details [here](../Docs/Workflows/Using-NuGet-without-committing-packages).
 
