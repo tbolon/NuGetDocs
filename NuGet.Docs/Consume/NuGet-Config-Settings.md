@@ -63,8 +63,7 @@ More details [here](Package-Restore).
 
 ## Package sources
 
-**section**: packageSources  
-**keys**: disabledPackageSources and activePackageSource
+**sections**: packageSources, disabledPackageSources and activePackageSource  
 
 Allows you to specify the list of sources to be used while looking for packages.
 
